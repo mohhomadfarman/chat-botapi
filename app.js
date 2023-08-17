@@ -57,11 +57,11 @@ app.post("/webhook", (req, res) => {
           messaging_product: "whatsapp",
           to: from,
           // text: { body: msg_body === "Hi" ? `Hey ${from}`: "Sorry Enter valid " },
-          "type": "template",
-    "template": {
-        "name": "hello_world",
-        "language": {
-            "code": "en_US"
+          type: "template",
+  template: {
+        name: "hello_world",
+        language: {
+            code: "en_US"
         }
        
     },
